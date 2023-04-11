@@ -27,6 +27,6 @@ app.get('/', (req, res, next) => {
 
 require('./app/routes/route')(app);
 
-app.listen(3000, function() {
-    console.log('server running: http://localhost:3000');
+app.listen(8080, function() {
+    console.log('server running: http://localhost:8080');
 });
